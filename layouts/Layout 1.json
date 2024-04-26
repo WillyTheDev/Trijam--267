@@ -34,10 +34,324 @@
 			"blendMode": "normal",
 			"zElevation": 0,
 			"global": false
+		},
+		{
+			"name": "UI",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "Text",
+					"properties": {
+						"text": "Text",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 48,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 5,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 487,
+						"y": 734,
+						"width": 1024,
+						"height": 300,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "background",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 12,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 992,
+						"y": 884,
+						"width": 1024,
+						"height": 300,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							0.5
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Girl",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 13,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1761,
+						"y": 398,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Boy",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 14,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 177,
+						"y": 401,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Button2",
+					"properties": {
+						"type": "button",
+						"text": "OK",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": false,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 2,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 681,
+						"y": 396,
+						"width": 530,
+						"height": 120,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "Button",
+					"properties": {
+						"type": "button",
+						"text": "OK",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": false,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 4,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 687,
+						"y": 235,
+						"width": 523,
+						"height": 128,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				}
+			],
+			"sid": 609648684067062,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"isHTMLElementsLayer": false,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
 		}
 	],
 	"sid": 935930924487100,
-	"nonworld-instances": [],
+	"nonworld-instances": [
+		{
+			"type": "Array",
+			"properties": {
+				"width": 10,
+				"height": 1,
+				"depth": 1
+			},
+			"uid": 3,
+			"instanceVariables": {
+				"Variable1": 0
+			}
+		},
+		{
+			"type": "question0",
+			"properties": {},
+			"uid": 6,
+			"instanceVariables": {
+				"text": "\"Comment-vas-tu\"",
+				"answer_1": "\"bien\"",
+				"answer_2": "\"Pas bien\"",
+				"next_question_index_1": 1,
+				"next_question_index_2": 2
+			}
+		},
+		{
+			"type": "question1",
+			"properties": {},
+			"uid": 7,
+			"instanceVariables": {
+				"text": "\"question1",
+				"answer_1": "\"bien\"",
+				"answer_2": "\"Pas bien\"",
+				"next_question_index_1": 4,
+				"next_question_index_2": 5
+			}
+		},
+		{
+			"type": "question2",
+			"properties": {},
+			"uid": 8,
+			"instanceVariables": {
+				"text": "\"question2\"",
+				"answer_1": "\"bien\"",
+				"answer_2": "\"Pas bien\"",
+				"next_question_index_1": 5,
+				"next_question_index_2": 6
+			}
+		},
+		{
+			"type": "question3",
+			"properties": {},
+			"uid": 9,
+			"instanceVariables": {
+				"text": "\"question3\"",
+				"answer_1": "\"bien\"",
+				"answer_2": "\"Pas bien\"",
+				"next_question_index_1": 6,
+				"next_question_index_2": 7
+			}
+		},
+		{
+			"type": "question4",
+			"properties": {},
+			"uid": 10,
+			"instanceVariables": {
+				"text": "\"Comment-vas-tu\"",
+				"answer_1": "\"bien\"",
+				"answer_2": "\"Pas bien\"",
+				"next_question_index_1": 7,
+				"next_question_index_2": 8
+			}
+		},
+		{
+			"type": "question5",
+			"properties": {},
+			"uid": 11,
+			"instanceVariables": {
+				"text": "\"Comment-vas-tu\"",
+				"answer_1": "\"bien\"",
+				"answer_2": "\"Pas bien\"",
+				"next_question_index_1": 8,
+				"next_question_index_2": 7
+			}
+		}
+	],
 	"effectTypes": [],
 	"width": 3840,
 	"height": 2160,

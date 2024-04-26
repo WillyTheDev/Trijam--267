@@ -1,5 +1,681 @@
 {
 	"name": "Event sheet 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "question_index",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 235661989274376
+		},
+		{
+			"eventType": "variable",
+			"name": "index",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 245026048835316
+		},
+		{
+			"eventType": "variable",
+			"name": "next_question_index_1",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 585497217030763
+		},
+		{
+			"eventType": "variable",
+			"name": "next_question_index_2",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 959208535266162
+		},
+		{
+			"eventType": "variable",
+			"name": "fin_1",
+			"type": "string",
+			"initialValue": "\"fin_1\"",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 629885974124807
+		},
+		{
+			"eventType": "variable",
+			"name": "fin_2",
+			"type": "string",
+			"initialValue": "\"fin_2\"",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 389892141376228
+		},
+		{
+			"eventType": "variable",
+			"name": "fin_3",
+			"type": "string",
+			"initialValue": "\"fin_3\"",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 459058839165405
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "StartLayout",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 487560582407419
+						}
+					],
+					"actions": [],
+					"sid": 395924171337875,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 577030840095047,
+									"parameters": {
+										"first-value": "question_index",
+										"comparison": 0,
+										"second-value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-text",
+									"objectClass": "Text",
+									"sid": 333887742823014,
+									"parameters": {
+										"text": "question0.text"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "Button",
+									"sid": 347701916735957,
+									"parameters": {
+										"text": "question0.answer_1"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "Button2",
+									"sid": 540004896909400,
+									"parameters": {
+										"text": "question0.answer_2"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 864331297070407,
+									"parameters": {
+										"variable": "next_question_index_1",
+										"value": "question0.next_question_index_1"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 279157224169665,
+									"parameters": {
+										"variable": "next_question_index_2",
+										"value": "question0.next_question_index_2"
+									}
+								}
+							],
+							"sid": 360617949544134
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 684880838084363,
+									"parameters": {
+										"first-value": "question_index",
+										"comparison": 0,
+										"second-value": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-text",
+									"objectClass": "Text",
+									"sid": 739565455334559,
+									"parameters": {
+										"text": "question1.text"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "Button",
+									"sid": 348899606396153,
+									"parameters": {
+										"text": "question1.answer_1"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "Button2",
+									"sid": 945677755769046,
+									"parameters": {
+										"text": "question1.answer_2"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 142223988594821,
+									"parameters": {
+										"variable": "next_question_index_1",
+										"value": "question1.next_question_index_1"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 544781690653652,
+									"parameters": {
+										"variable": "next_question_index_2",
+										"value": "question1.next_question_index_2"
+									}
+								}
+							],
+							"sid": 236667146074227
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 646861108080283,
+									"parameters": {
+										"first-value": "question_index",
+										"comparison": 0,
+										"second-value": "2"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-text",
+									"objectClass": "Text",
+									"sid": 761201573253048,
+									"parameters": {
+										"text": "question2.text"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "Button",
+									"sid": 491901969165372,
+									"parameters": {
+										"text": "question2.answer_1"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "Button2",
+									"sid": 358422654845140,
+									"parameters": {
+										"text": "question2.answer_2"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 626280912254971,
+									"parameters": {
+										"variable": "next_question_index_1",
+										"value": "question2.next_question_index_1"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 221276118669037,
+									"parameters": {
+										"variable": "next_question_index_2",
+										"value": "question2.next_question_index_2"
+									}
+								}
+							],
+							"sid": 575799155146708
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 158276498773544,
+									"parameters": {
+										"first-value": "question_index",
+										"comparison": 0,
+										"second-value": "3"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-text",
+									"objectClass": "Text",
+									"sid": 149089005713392,
+									"parameters": {
+										"text": "question3.text"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "Button",
+									"sid": 423254509109135,
+									"parameters": {
+										"text": "question3.answer_1"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "Button2",
+									"sid": 666811583921220,
+									"parameters": {
+										"text": "question3.answer_2"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 511450396967698,
+									"parameters": {
+										"variable": "next_question_index_1",
+										"value": "question3.next_question_index_1"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 311046845492142,
+									"parameters": {
+										"variable": "next_question_index_2",
+										"value": "question3.next_question_index_2"
+									}
+								}
+							],
+							"sid": 984022174526638
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 374735905248001,
+									"parameters": {
+										"first-value": "question_index",
+										"comparison": 0,
+										"second-value": "4"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-text",
+									"objectClass": "Text",
+									"sid": 583827118386530,
+									"parameters": {
+										"text": "question4.text"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "Button",
+									"sid": 279190566370325,
+									"parameters": {
+										"text": "question4.answer_1"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "Button2",
+									"sid": 744269755735313,
+									"parameters": {
+										"text": "question4.answer_2"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 288618003070511,
+									"parameters": {
+										"variable": "next_question_index_1",
+										"value": "question4.next_question_index_1"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 652855883286941,
+									"parameters": {
+										"variable": "next_question_index_2",
+										"value": "question4.next_question_index_2"
+									}
+								}
+							],
+							"sid": 755002585940889
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 926703597284808,
+									"parameters": {
+										"first-value": "question_index",
+										"comparison": 0,
+										"second-value": "5"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-text",
+									"objectClass": "Text",
+									"sid": 771643927399502,
+									"parameters": {
+										"text": "question5.text"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "Button",
+									"sid": 357944786167768,
+									"parameters": {
+										"text": "question5.answer_1"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "Button2",
+									"sid": 184987854830387,
+									"parameters": {
+										"text": "question5.answer_2"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 623227839926692,
+									"parameters": {
+										"variable": "next_question_index_1",
+										"value": "question5.next_question_index_1"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 495082366803013,
+									"parameters": {
+										"variable": "next_question_index_2",
+										"value": "question5.next_question_index_2"
+									}
+								}
+							],
+							"sid": 659054217158127
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 896797024707202,
+									"parameters": {
+										"first-value": "question_index",
+										"comparison": 0,
+										"second-value": "6"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-text",
+									"objectClass": "Text",
+									"sid": 582704686949327,
+									"parameters": {
+										"text": "fin_1"
+									}
+								},
+								{
+									"id": "destroy",
+									"objectClass": "Button",
+									"sid": 168353605349889
+								},
+								{
+									"id": "destroy",
+									"objectClass": "Button2",
+									"sid": 794375557401946
+								}
+							],
+							"sid": 880062486951170
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 416877709768517,
+									"parameters": {
+										"first-value": "question_index",
+										"comparison": 0,
+										"second-value": "7"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-text",
+									"objectClass": "Text",
+									"sid": 843304520712454,
+									"parameters": {
+										"text": "fin_2"
+									}
+								},
+								{
+									"id": "destroy",
+									"objectClass": "Button",
+									"sid": 260970545403226
+								},
+								{
+									"id": "destroy",
+									"objectClass": "Button2",
+									"sid": 471294170358152
+								}
+							],
+							"sid": 152841506516620
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 593441218829783,
+									"parameters": {
+										"first-value": "question_index",
+										"comparison": 0,
+										"second-value": "8"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-text",
+									"objectClass": "Text",
+									"sid": 151560379984978,
+									"parameters": {
+										"text": "fin_3"
+									}
+								},
+								{
+									"id": "destroy",
+									"objectClass": "Button",
+									"sid": 133693403325954
+								},
+								{
+									"id": "destroy",
+									"objectClass": "Button2",
+									"sid": 938996766555916
+								}
+							],
+							"sid": 377930991660300
+						}
+					]
+				}
+			],
+			"sid": 942178185955905
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "ButtonController",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-clicked",
+							"objectClass": "Button",
+							"sid": 111592861766224
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 259300447707624,
+							"parameters": {
+								"variable": "index",
+								"value": "0"
+							}
+						},
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 843438722848352
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 132387330087209,
+							"parameters": {
+								"variable": "question_index",
+								"value": "next_question_index_1"
+							}
+						},
+						{
+							"callFunction": "incrementIndex",
+							"sid": 537942954142261
+						}
+					],
+					"sid": 690806701144645
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-clicked",
+							"objectClass": "Button2",
+							"sid": 372593952413936
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 485356586888701,
+							"parameters": {
+								"variable": "index",
+								"value": "1"
+							}
+						},
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 712833034366145
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 344456415281991,
+							"parameters": {
+								"variable": "question_index",
+								"value": "next_question_index_2"
+							}
+						},
+						{
+							"callFunction": "incrementIndex",
+							"sid": 958490161043445
+						}
+					],
+					"sid": 195267326324590
+				},
+				{
+					"functionName": "incrementIndex",
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionCopyPicked": false,
+					"functionIsAsync": false,
+					"functionParameters": [],
+					"eventType": "function-block",
+					"conditions": [],
+					"actions": [
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 302106637797667,
+							"parameters": {
+								"variable": "index",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 375452163671724
+				}
+			],
+			"sid": 474638046891272
+		}
+	],
 	"sid": 251275669832493
 }

@@ -1,0 +1,43 @@
+{
+	"name": "question1",
+	"plugin-id": "Dictionary",
+	"sid": 178728046073003,
+	"isGlobal": true,
+	"instanceVariables": [
+		{
+			"name": "text",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 195508247547322
+		},
+		{
+			"name": "answer_1",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 856976760057370
+		},
+		{
+			"name": "answer_2",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 719086040612956
+		},
+		{
+			"name": "next_question_index_1",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 548684079538395
+		},
+		{
+			"name": "next_question_index_2",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 512929089777653
+		}
+	]
+}

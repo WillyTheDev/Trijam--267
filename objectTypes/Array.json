@@ -1,0 +1,15 @@
+{
+	"name": "Array",
+	"plugin-id": "Arr",
+	"sid": 350334263376456,
+	"isGlobal": true,
+	"instanceVariables": [
+		{
+			"name": "Variable1",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 772050462841355
+		}
+	]
+}
